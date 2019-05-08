@@ -8,6 +8,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { TestComponent } from './test/test.component';
+import { NodeparentComponent } from './nodeparent/nodeparent.component';
+import { NodechildComponent } from './nodechild/nodechild.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { TestComponent } from './test/test.component';
     HeroesComponent,
     ParentComponent,
     ChildComponent,
-    TestComponent
+    TestComponent,
+    NodeparentComponent,
+    NodechildComponent
   ],
   imports: [
     BrowserModule,
