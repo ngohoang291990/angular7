@@ -6,19 +6,19 @@ import { Component, ViewChild } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'DemoRouting';
-  @ViewChild('myInputText') myInputText;
+  // title = 'DemoRouting';
+  // @ViewChild('myInputText') myInputText;
 
-  public message='';
+  // public message='';
 
-  public name="Ngo XUan Hoang";
+  // public name="Ngo XUan Hoang";
   
   constructor(){
-    setInterval(()=>{this.send2Server();},2000);
+    // setInterval(()=>{this.send2Server();},2000);
   }
 
-  send2Server(){
-    let data= this.myInputText.nativeElement;
-    console.log(data.value);
-  }
+  // send2Server(){
+  //   let data= this.myInputText.nativeElement;
+  //   console.log(data.value);
+  // }
 }

@@ -1,0 +1,5 @@
+<app-vchild (eventHanding)="mess = $event" [myValue]="value"></app-vchild>
+
+<h1 *ngIf="mess">
+  Du lieu gui tu V-ChildComponent {{mess}}
+</h1>

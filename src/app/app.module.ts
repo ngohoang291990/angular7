@@ -10,6 +10,8 @@ import { ChildComponent } from './child/child.component';
 import { TestComponent } from './test/test.component';
 import { NodeparentComponent } from './nodeparent/nodeparent.component';
 import { NodechildComponent } from './nodechild/nodechild.component';
+import { VparentComponent } from './viewchild/vparent/vparent.component';
+import { VchildComponent } from './viewchild/vchild/vchild.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { NodechildComponent } from './nodechild/nodechild.component';
     ChildComponent,
     TestComponent,
     NodeparentComponent,
-    NodechildComponent
+    NodechildComponent,
+    VparentComponent,
+    VchildComponent
   ],
   imports: [
     BrowserModule,
