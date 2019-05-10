@@ -15,6 +15,7 @@ import { VchildComponent } from './viewchild/vchild/vchild.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { BookComponent } from './book/book.component';
+import { HoangngoComponent } from './hoangngo/hoangngo.component';
 <<<<<<< HEAD
 =======
 import { HookComponent } from './hook/hook.component';
@@ -36,7 +37,8 @@ import { HookComponent } from './hook/hook.component';
     HomeComponent,
     LoginComponent,
 <<<<<<< HEAD
-    BookComponent
+    BookComponent,
+HoangngoComponent
 =======
     BookComponent,
     HookComponent
