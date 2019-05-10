@@ -12,6 +12,7 @@ import { NodeparentComponent } from './nodeparent/nodeparent.component';
 import { NodechildComponent } from './nodechild/nodechild.component';
 import { VparentComponent } from './viewchild/vparent/vparent.component';
 import { VchildComponent } from './viewchild/vchild/vchild.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { VchildComponent } from './viewchild/vchild/vchild.component';
     NodeparentComponent,
     NodechildComponent,
     VparentComponent,
-    VchildComponent
+    VchildComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
