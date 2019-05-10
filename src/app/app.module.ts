@@ -17,10 +17,7 @@ import { LoginComponent } from './login/login.component';
 import { BookComponent } from './book/book.component';
 import { HoangngoComponent } from './hoangngo/hoangngo.component';
 import { XuanhoangComponent } from './xuanhoang/xuanhoang.component';
-<<<<<<< HEAD
-=======
 import { HookComponent } from './hook/hook.component';
->>>>>>> master
 
 
 @NgModule({
@@ -37,14 +34,8 @@ import { HookComponent } from './hook/hook.component';
     VchildComponent,
     HomeComponent,
     LoginComponent,
-<<<<<<< HEAD
-    BookComponent,
-HoangngoComponent,
-XuanhoangComponent
-=======
     BookComponent,
     HookComponent
->>>>>>> master
   ],
   imports: [
     BrowserModule,
