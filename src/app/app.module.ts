@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { BookComponent } from './book/book.component';
 import { HoangngoComponent } from './hoangngo/hoangngo.component';
+import { NgoxuanhoangComponent } from './ngoxuanhoang/ngoxuanhoang.component';
 <<<<<<< HEAD
 =======
 import { HookComponent } from './hook/hook.component';
@@ -38,7 +39,8 @@ import { HookComponent } from './hook/hook.component';
     LoginComponent,
 <<<<<<< HEAD
     BookComponent,
-HoangngoComponent
+HoangngoComponent,
+NgoxuanhoangComponent
 =======
     BookComponent,
     HookComponent
