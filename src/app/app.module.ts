@@ -15,6 +15,7 @@ import { VchildComponent } from './viewchild/vchild/vchild.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { BookComponent } from './book/book.component';
+import { HookComponent } from './hook/hook.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { BookComponent } from './book/book.component';
     VchildComponent,
     HomeComponent,
     LoginComponent,
-    BookComponent
+    BookComponent,
+    HookComponent
   ],
   imports: [
     BrowserModule,
