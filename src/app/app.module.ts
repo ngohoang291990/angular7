@@ -16,11 +16,14 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { BookComponent } from './book/book.component';
 import { HoangngoComponent } from './hoangngo/hoangngo.component';
+<<<<<<< HEAD
 import { NgoxuanhoangComponent } from './ngoxuanhoang/ngoxuanhoang.component';
 <<<<<<< HEAD
 =======
-import { HookComponent } from './hook/hook.component';
+=======
+import { XuanhoangComponent } from './xuanhoang/xuanhoang.component';
 >>>>>>> master
+import { HookComponent } from './hook/hook.component';
 
 
 @NgModule({
@@ -38,13 +41,15 @@ import { HookComponent } from './hook/hook.component';
     HomeComponent,
     LoginComponent,
 <<<<<<< HEAD
+<<<<<<< HEAD
     BookComponent,
 HoangngoComponent,
 NgoxuanhoangComponent
 =======
+=======
+>>>>>>> master
     BookComponent,
     HookComponent
->>>>>>> master
   ],
   imports: [
     BrowserModule,
