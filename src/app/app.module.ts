@@ -18,6 +18,7 @@ import { BookComponent } from './book/book.component';
 import { HoangngoComponent } from './hoangngo/hoangngo.component';
 import { XuanhoangComponent } from './xuanhoang/xuanhoang.component';
 import { HookComponent } from './hook/hook.component';
+import { NgothanhtanComponent } from './ngothanhtan/ngothanhtan.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { HookComponent } from './hook/hook.component';
     BookComponent,
     HookComponent,
     XuanhoangComponent,
-    HoangngoComponent
+    HoangngoComponent,
+    NgothanhtanComponent
   ],
   imports: [
     BrowserModule,
