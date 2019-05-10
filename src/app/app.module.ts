@@ -13,6 +13,7 @@ import { NodechildComponent } from './nodechild/nodechild.component';
 import { VparentComponent } from './viewchild/vparent/vparent.component';
 import { VchildComponent } from './viewchild/vchild/vchild.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { HomeComponent } from './home/home.component';
     NodechildComponent,
     VparentComponent,
     VchildComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
